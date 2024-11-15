@@ -11,8 +11,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='nav-logo'>
+	  <Link to = "/" style = {{display:"flex",textDecoration:"none"}}
         <img src={logo} alt="" />
         <p>SHOPPER</p>
+	  </Link>
       </div>
 
       <ul className='nav-menu'>
